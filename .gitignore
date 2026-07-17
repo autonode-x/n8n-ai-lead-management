@@ -1,20 +1,11 @@
-# Environment
 .env
 .env.*
-
-# n8n
 *.sqlite
 *.db
-
-# Logs
 *.log
-
-# OS
+.vscode/
 .DS_Store
 Thumbs.db
-
-# VS Code
-.vscode/
-
-# Node
+__pycache__/
+*.pyc
 node_modules/
