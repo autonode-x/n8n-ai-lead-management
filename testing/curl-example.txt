@@ -1,0 +1,9 @@
+curl -X POST http://localhost:5678/webhook/leads \
+-H "Content-Type: application/json" \
+-d '{
+  "name":"John Doe",
+  "email":"john.doe@example.com",
+  "phone":"+919876543210",
+  "message":"I want AI automation for my business.",
+  "Lead_Source":"Website"
+}'
